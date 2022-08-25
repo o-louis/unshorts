@@ -10,9 +10,9 @@ Unshorts is an simple extension which is hiding Youtube SHORTS.
 - Go to chrome://extensions/ and turn on the `Developer Mode`
 - Click on `Load unpacked`
 - Select the downloaded folder
-- Now Unshort is installed
+- Unshort should be installed now
 
 ### How to use it ?
 - Go to https://www.youtube.com
-- Click on the extensions
+- Click on the extension to turn it on
 - Youtube SHORTS should automatically be hidden
