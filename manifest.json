@@ -1,0 +1,26 @@
+{
+  "name": "Unshorts",
+  "description": "Unshorts extension for hiding Youtube SHORTS on https://www.youtube.com",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/16x16.png",
+    "48": "images/48x48.png",
+    "128": "images/128x128.png" 
+  },
+  "background": {
+    "service_worker": "unshorts.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/16x16-gray.png",
+      "48": "images/48x48-gray.png",
+      "128": "images/128x128-gray.png" 
+    },
+    "default_title": "Unshorts"
+  },
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ]
+}
